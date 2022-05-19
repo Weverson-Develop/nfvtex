@@ -7,7 +7,9 @@ const api = axios.create({
         username: 'h2opurificado_adm',
         password: 'YF0s+WQ,%pn2'
       },
-    
+    headers: {
+    'WTS-LicenceType': 'api' 
+  }
 })
 
 
